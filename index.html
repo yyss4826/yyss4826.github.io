@@ -12,6 +12,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
       <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
       
+      
       </head>
 
       <body>
@@ -22,7 +23,7 @@
         <div class="wrapper" id="wrapper">
         
 
-        <div class="intro">
+        <div class="intro" id="intro">
           <i><h2 id="enter-name">Guest</h2></i>
           <h1 class="title-one">THE THIRD WHEEL</h1>
           <h2 class="description">A story about how social media affects relationships</h2>
@@ -51,37 +52,36 @@
                   <h1 class="title-three">MEET OUR CAST</h1> 
                   
                   <div id="rock" class="rock">
-                    <img src="rock.png" alt="Rock" width="250px" class="rock-image">
+                  <img id="rock" onmouseout="this.src='rock.png'" onmouseover="this.src='hearts-gif.gif'" height="250px" width="250px" src="rock.png">
                    <div class="rock-flex">
                     <h2 class="rock-title">ROCK</h2>
-                    <p class="rock-discription">Loyal, Empathetic, and generous man who is ready to do everything for his beloved significant other</p>
+                    <p class="rock-discription">Loyal, Empathetic, and generous man who is ready</p>
+                    <p class="rock-discription">     to do everything for his beloved significant other</p> 
+
                   </div>
                   </div>
                   
                 <br> 
+                <br>
+                <br>
 
                   <div id="yeva" class="yeva">
-                    <img src="yeva.png" alt="Yeva" width="250px" class="yeva-image">
+                    
+                    <img id="yeva" onmouseout="this.src='yeva.png'" onmouseover="this.src='hearts-gif.gif'" height="250px" width="250px" src="yeva.png">
 
                     <div class="yeva-flex">
                     <h2 class="yeva-title">YEVA</h2>
-                    <p class="yeva-discription">Emotional, Friendly, and Impressionate person. She loves her boyfriend but her comfort always goes first</p>
+                    <p class="yeva-discription">Emotional, Friendly, and Impressionate person. She</p>
+                    <p class="yeva-discription">loves her boyfriend but her comfort always goes first</p>
                   </div>
-                </div>
-                
+                </div>     
                 </div>
 
-                <script src="script.js"></script>
-
-                <div class="container">
-                  <div class="navbar">
-                  <div class="hamburger-menu">
-                    <div class="line line 1"></div>
-                    <div class="line line 2"></div>
-                    <div class="line line 3"></div>
+                  <div class="menu-btn" id="menu-btn">
+                     <div class="hamburger-menu" id="hamburger-menu">
+                  
+                     </div>
                   </div>
-                  </div>
-                </div>
 
               <ul class="nav-list">
                 <li class="nav-item">
@@ -94,10 +94,12 @@
                   <a href="#cast" class="nav-link">See the Cast</a>
                 </li>
               </ul>
+          
 
 
             </div>
-            </body>
+             <script src="index.js"></script>
+          </body>
           </body>
         </div>
           </html>

@@ -1,0 +1,47 @@
+Project Name: The Third Wheel 
+
+Project Description: what is the project, what is the overall concept and theme, and what kind of experience you were striving to create.
+
+This project consists of a short video, accompanied by a website that invites its visitors to learn more about the movie, cast, and watch trailer. 
+Since the Communications Lab course started from a discussion of the consequenses of new social media stadards on today's world, my video 
+was designed to show a negative perspictive on the presence of social media in our lives. The idea of the short movie is to show that peopple's 
+personal space is being ingnored by soccial media to such extent that the social media itself becomes "a third wheel" in the relationship between the two. 
+
+At the beginning of the project, I was hoping to get a solid idea of how the proccess of website creation look is like from the scratch to the end. 
+Frankly speaking, I did not plan to dive that deep and learn how to implement java script. I was initially thinking that my experience will mostly be 
+focused on the html and CSS features. Overall, I greatly enjoyed working on this assignment, especially seeing how a few strings of code 
+result in an appearance of visual objects on the page. The excitement that cwas coming from this activity motivated me to learn more.
+
+ However, it turned out that web design has some drawbacks. More explicitly, it is the situations when a small typing mistake was done and it would require 
+going through the code very attentively or inspecting the elements usind advanced settings. This process can be quite daunting, especially when the mistake is not obvious. 
+Whenever something goes wrong, I become very disappointed and start blaming myself. Therefore, while working on this assignment, I challenged my patience and 
+learned to work conscientiously to get a satisfying result. 
+
+Process: How did you go about implementing the concept.
+
+The main topic of my movie was romantic relationship between a man and a woman. In order to set the right mood of the website which would tell its visitors about 
+the idea of the movie, I decided to choose a monochromatic color palette based on the shades of pink. I made such decision because love and relationships are historically 
+associated with hearts and pink color. 
+
+The first implementation was creating the wireframe in Adobe XD. This step was crucial as it gave me a good understanding of which CSS features I will need to use
+to recreate the wireframe on my website. The second step consisted of developing a code in html and CSS. Following the romantic concept, 
+I implemented a hover feature that changes the actor's picture to the gif that has moving hearts. 
+
+As soon as the website started to look similar to the wireframe, I moved to the final step, which is adding some interactivity to the website. To make the website personalized, 
+I added a feature that asks the user's name and adresses them by their name in the very beginning of the page. I also wanted to make the user experience more engaging by adding 
+some animation effects to the hamburger menu button.
+Since the website, as well as the movie, tells the story of a couple, I decided to make my website scrollable with no redirections to other pages. This suggests that
+the story of the couple's relationship has a linear plot, leading the user to scroll down.
+
+Reflection/Evaluation: This should bookend the initial concept and talk about whether your expectations and goals were met in the process of building the final working version.
+
+In the beginning, I did not expect that I will be able to learn JS basics in such a short period of time. However, during the process of learning, my expectations
+jumped and I realized that there are so many interactive features that I want to include to my website. Unfortunately, JS turned out to be the hardest part for me and
+I was not able to make the website interactive to a great extent. Nevertheless, I managed to create a very nice-looking animation of the menu button. I am satisfied with 
+my experience with html except for the pop-up menu button feature which I could not emplement (connecting the list of the links to different parts of the page to the menu button
+and making it possible to pop up on top of the main page).
+
+The html part was the easiest to understand and I quickly grasped the concept of div's, as well as other elements. What turned out to be much harder than expected is CSS.
+Being more percise, it is the text alignment that took the most of my time. The problem behind this is the fact that I lacked knowledge about the details of each feature
+such as position absolute vs relative combined with other features such as movements along the page. I wish I had time to study the flex box feature because it would make the
+text alignement process much easier. I am satisfied with the choise of the color theme as well as font, because they do a good job representing the romantic mood of the movie. 
